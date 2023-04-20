@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+* li {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 2rem;
+    margin: 0.5rem;
+    color: black;
+}
+.carousel-inner > .carousel-item > img {
+    width:640px;
+    height:360px;
+}
+
+.body {
+    font-family: 'Six Caps', sans-serif;
+    background-color: burlywood;
+    color: burlywood;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* ((HEADER - INDEX - FIRTSMOBILE)) */
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    width: auto;
+}
+
+
+.title-vclibros {
+    align-self: center;
+    text-decoration: none;
+
+}
+
+.nav-list h1 {
+    width: 300vh;
+}
+
+.ul-list {
+    text-decoration: none;
+    color: black;
+    padding-left: 34px;
+}
+
+.boton-inicio .button {
+    text-decoration: none;
+
+
+}
+
+.btn-registrarse {
+    display: none;
+}
+
+/* ((MAIN - INDEX)) */
+
+.title-fragmento {
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    padding-bottom: 1em;
+}
+
+.parrafo-main {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5em;
+}
+
+.title-gran-formato {
+    font-size: 1rem;
+    color: indianred;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: auto;
+    padding: 0.5em;
+
+}
+
+/* ===== GALERIA DE IMAGENES ===== */
+
+.conteiner-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 15px;
+    padding: 25px;
+
+}
+
+/* FOOTER */
+.conteiner-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.conteiner-redes {
+    background-color: green;
+    width: auto;
+    display: flex;
+
+
+}
+
+
+.iconos {
+    width: 200px;
+    display: row;
+}
+
+.gps {
+    display: none;
+
+}
+/* MEDIA QUERIE 1020 PARA DESKTOP INDEX=VIDRIERA*/
+/* @media (min-width:900px) {
+    .bi {
+        font-size: 35px;
+        padding: 35%;
+        color: black;
+       ;
+
+    }
+} */
+/* MEDIA QUERIE 1020 PARA DESKTOP INDEX=VIDRIERA*/
+@media (min-width:1020px) {
+
+    .container-header {
+        font-size: 60px;
+        justify-content: space-between;
+    }
+
+
+    .logo-libros {
+        width: 150px;
+        align-self: flex-start;
+
+    }
+
+    .title-fragmento {
+        font-size: 45px;
+    }
+
+    .size-buttom {
+        font-size: 35px;
+        color: black;
+
+    }
+
+    .parrafo-main {
+        font-size: 25px;
+
+    }
+
+    .bi {
+        font-size: 35px;
+        padding: 35%;
+        color: black;
+    }
+
+    .conteiner-img div img {
+        display: auto;
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .size-img {
+        width: 430px;
+        border-radius: 80px;
+
+
+    }
+
+    .title-gran-formato {
+        font-size: 50px;
+
+    }
+
+    .ul-list {
+        font-size: fpx;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ul-list a {
+        color: black;
+    }
+
+    /* FOOTER INDEX=VIDRIERA*/
+
+    .conteiner-footer {
+        display: flex;
+        height: 300px;
+
+    }
+
+    .gps {
+        width: 400px;
+        display: flex;
+        height: 200px;
+
+    }
+
+    .iconos {
+        display: flex;
+        gap: 5px;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        font-size: 20px;
+        justify-content: space-evenly;
+
+    }
+}
+
+
+
+
+/* =====  PAGE CATALOGOS HEADER ===== */
+
+.header-vclibros {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgba(255, 200, 0, 0.478);
+}
+
+.page-catalogos {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+
+}
+
+/* MAIN CATALOGOS */
+.terror {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.poesia {
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto-parrafo {
+    text-decoration: solid;
+    font-size: 1.5rem;
+}
+
+.best-sellers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.novelas {
+    display: flex;
+    justify-content: center;
+
+}
+
+.revistas {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER  */
+.boton-inicio {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    list-style: none;
+
+}
+
+.email-celular {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+/* CATALOGOS MEDIAQUERIE */
+
+@media (min-width: 800px ) {
+    .header-vclibros {
+        display: flex;
+    }
+
+    .vclibros {
+        display: flex;
+    }
+.terror{
+    display: flex;
+    align-self: start;
+}
+}
